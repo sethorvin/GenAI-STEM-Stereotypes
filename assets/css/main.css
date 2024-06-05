@@ -29,6 +29,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.icon-custom {
+		width: 200px; 
+		height: auto; 
+}
+
 body {
 	line-height: 1;
 }
