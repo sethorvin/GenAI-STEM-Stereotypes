@@ -1,1 +1,0 @@
-# GenAI-STEM-Stereotypes
