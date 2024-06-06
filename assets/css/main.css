@@ -128,13 +128,26 @@ input, select, textarea {
 		/*background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -o-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);*/
 		background-image: -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: -o-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
     	background-image: linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
     	background-repeat: no-repeat;
     	background-attachment: fixed;
+		background-size: cover;
+	}
+
+	@media (max-width: 1290){
+		body{
+			background-image: 
+            -webkit-linear-gradient(45deg, #e37682 20%, #5f4d93 80%), 
+            -moz-linear-gradient(45deg, #e37682 20%, #5f4d93 80%), 
+            -o-linear-gradient(45deg, #e37682 20%, #5f4d93 80%), 
+            linear-gradient(45deg, #e37682 20%, #5f4d93 80%);
+		}
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3580,12 +3593,14 @@ input, select, textarea {
 			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: url("images/overlay.png"), -o-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);*/
 
 			background-color: #935d8c;
 			background-image: -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 			background-image: -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 			background-image: -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+			background-image: -o-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 			background-image: linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 			background-repeat: no-repeat;
 			background-attachment: fixed;
