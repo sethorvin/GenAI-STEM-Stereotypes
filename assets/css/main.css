@@ -143,10 +143,10 @@ input, select, textarea {
 	@media (max-width: 1290){
 		body{
 			background-image: 
-            -webkit-linear-gradient(45deg, #e37682 20%, #5f4d93 80%), 
-            -moz-linear-gradient(45deg, #e37682 20%, #5f4d93 80%), 
-            -o-linear-gradient(45deg, #e37682 20%, #5f4d93 80%), 
-            linear-gradient(45deg, #e37682 20%, #5f4d93 80%);
+            -webkit-linear-gradient(45deg, #e37682 20%, #000000 50%), 
+            -moz-linear-gradient(45deg, #e37682 20%, #000000 50%), 
+            -o-linear-gradient(45deg, #e37682 20%, #000000 50%), 
+            linear-gradient(45deg, #e37682 20%, #000000 50%);
 		}
 	}
 
