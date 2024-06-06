@@ -3818,3 +3818,40 @@ input, select, textarea {
 			}
 
 		}
+
+/* Additional styles for lightbox */
+.lightbox {
+	display: none;
+	position: fixed;
+	z-index: 9999;
+	padding: 60px 0;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.9);
+	text-align: center;
+}
+
+.lightbox-content {
+	max-width: 90%;
+	max-height: 90%;
+	margin: auto;
+	display: block;
+}
+
+.close {
+	color: #fff;
+	font-size: 40px;
+	position: absolute;
+	top: 20px;
+	right: 35px;
+	cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+	color: #ccc;
+	text-decoration: none;
+}
