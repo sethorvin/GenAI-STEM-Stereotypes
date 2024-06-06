@@ -55,6 +55,11 @@
 								  img.alt = occupation;
 								  imageContainer.appendChild(img);
 								}
+
+								var enlargeText = document.createElement("h5");
+								enlargeText.style.textAlign = "center";
+								enlargeText.innerHTML = '<i>Click any image to enlarge.</i>';
+								section.appendChild(enlargeText);
 								
 								document.getElementById("content").appendChild(section);
 							  });
