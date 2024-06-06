@@ -140,7 +140,7 @@ input, select, textarea {
 		background-size: cover;
 	}
 
-	@media (max-width: 1290){
+	@media (max-width: 1290px){
 		body{
 			background-image: 
             -webkit-linear-gradient(45deg, #e37682 20%, #000000 50%), 
